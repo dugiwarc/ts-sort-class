@@ -1,0 +1,11 @@
+// const sorter = new Sorter([10, 3, -5, 0]);
+// sorter.sort();
+// console.log(sorter);
+import { NumbersCollection } from './NumbersCollection';
+import { Sorter } from './Sorter';
+import { CharactersCollection } from './CharactersCollections';
+const c = new NumbersCollection([10, 3, -5, 0]);
+const ch = new CharactersCollection('hello');
+const sorter = new Sorter(ch);
+sorter.sort();
+console.log(sorter);
